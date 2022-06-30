@@ -46,6 +46,9 @@ echo "El descuento aplicado fue: ".$descuento;
 $edad = 24;
 switch($edad)
 {
+    case default:
+        echo"Esto es un numero de edad que no esta dentro del analisis";
+    break;
     case 12:
         echo "La mitad de tu edad";
         break;
